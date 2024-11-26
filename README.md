@@ -25,7 +25,7 @@ npm install
 
 1. Create a `.env` file in the root directory:
 ```bash
-touch .env
+nano .env
 ```
 
 2. Add your private keys to the `.env` file:
