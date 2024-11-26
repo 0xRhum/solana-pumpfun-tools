@@ -1,0 +1,35 @@
+{
+  "name": "solana-pump-tools",
+  "version": "1.0.0",
+  "description": "Tools for interacting with Pump Protocol on Solana",
+  "type": "module",
+  "scripts": {
+    "monitor": "node newTokens.js",
+    "trade": "node tradePump.js",
+    "create": "node createTokenBundle.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "formdata-node": "^5.0.1",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/solana-pump-tools.git"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "trading",
+    "pump",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT"
+}
